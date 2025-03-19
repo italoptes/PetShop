@@ -24,4 +24,8 @@ public class InventarioPetShop  {
         return servicos;
     }
 
+    public String descricaoServico(ServicosPetShop servico){
+        return servico.descricao();
+    }
+
 }

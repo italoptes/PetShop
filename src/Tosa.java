@@ -14,7 +14,7 @@ public class Tosa extends ServicosPetShop{
 
     @Override
     public String descricao() {
-        return "Tosa.  Animal: " + getTamanho()  + ", Valor: " + calculaPreco();
+        return "Serviço: Tosa | " + " | Valor: R$ " + calculaPreco();
     }
 
     @Override

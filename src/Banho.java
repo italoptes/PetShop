@@ -26,7 +26,7 @@ public class Banho extends ServicosPetShop{
 
     @Override
     public String descricao() {
-        return "Banho. Animal: " + getTamanho()  + ", Pelo: " + tamanhoPelo + ", Valor: " + calculaPreco();
+        return "Serviço: Banho | " + "Animal: " + getTamanho() + " | Tamanho do Pelo: " + tamanhoPelo + " | Valor: R$ " + calculaPreco();
     }
 
     public TamanhoPelo getTamanhoPelo() {

@@ -22,7 +22,7 @@ public class Hotelzinho extends ServicosPetShop{
 
     @Override
     public String descricao() {
-        return "Hotelzinho. Animal: " + getTamanho() + ", Quantidade de Horas: " + quantHoras + ", Valor: " + calculaPreco();
+        return "Serviço: Hotelzinho | " + "Animal: " + getTamanho() + " | Quantidade de Horas: " + quantHoras + " | Valor: R$ " + calculaPreco();
     }
 
     public int getQuantHoras() {
