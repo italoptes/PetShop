@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public interface ServicosPetShop {
+public interface ServicosPetShopIF {
+    public double calculaPreco();
+    public String descricao();
 }
